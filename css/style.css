@@ -3,20 +3,26 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #FFFFFF;
     font-weight: 100;
+    margin-left: 350px;
+    margin-bottom: 0px;
+
 }
 img {
     width: 25%;
     height: auto;
     margin-top: 50px;
     margin-left: 50px;
+    display: flex;
 
 } 
 .inline-block li {
     display: inline;
     width: 100%;
     color: #FFFFFF;
+    margin-left: 50px;
+    margin-right: 50px;
     
-    
+ 
 }
 .nav {
     width: 100%;
@@ -29,14 +35,16 @@ img {
 .navigation {
     display: flex;
     flex-direction: space-between;
+    
 }
 body {
     background-color: #BFB6AE;
 }
 p {
-    margin-left: 50px;
-    ;
+    display: flex;
+    font-size: larger;
 }
 ul {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
 }
