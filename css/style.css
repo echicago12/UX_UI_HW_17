@@ -9,7 +9,9 @@ h1 {
 img {
     width: 25%;
     height: auto;
-    margin-top: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* margin-top: 50px; */
     margin-left: 50px;
     display: flex;
 
@@ -25,6 +27,15 @@ img {
 .nav {
     width: 100%;
 }
+.pageBranding {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.collapse {
+    justify-content: space-around;
+}
 .navigation, .footer {
     background-color: #010326;
     width: 100%;
@@ -34,6 +45,10 @@ img {
     display: flex;
     flex-direction: space-between;
     
+}
+
+.navbar {
+    margin-left: 0 !important;
 }
 body {
     background-color: #BFB6AE;
@@ -49,5 +64,37 @@ ul {
 
 .display-4 {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000;
     
+}
+
+.jumbotron {
+    background-color: #BFB6AE;
+    
+}
+
+.display-4 {
+    display: grid;
+    /* grid-template-columns: auto 50px 10% 2fr 1fr; */
+    /* grid-template-columns: 1fr 100px 2fr; */
+    justify-content: center;
+
+}
+.lead {
+    display: grid;
+    justify-content: center;
+}
+
+.navbar-nav { 
+    display: flex;
+}
+
+p {
+    display: grid;
+    justify-content: center;  
+}
+
+btn btn-dark btn-lg {
+    display: flex;
+    justify-content: center;
 }
