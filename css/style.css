@@ -156,4 +156,7 @@ h2 {
     margin-top: 50px;
     justify-content: center;
 }
+/* @media only screen and (max-width: 600){ */
+    
+}
 /* workContent will get flex-direction: column and each work card won't need it will have to poay with percentages of images view all projects button is exactly same as header excep text inside */
