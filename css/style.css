@@ -9,7 +9,7 @@ h1 {
 img {
     width: 25%;
     height: auto;
-    margin-top: 10px;
+    margin-top: 100px;
     margin-bottom: 10px;
     /* margin-top: 50px; */
     margin-left: 50px;
@@ -52,6 +52,7 @@ img {
 }
 body {
     background-color: #BFB6AE;
+    /* background-image: url(../images/chris-barbalis-uZAuwQJJ-4s-unsplash.jpg); */
 }
 p {
     display: flex;
@@ -70,6 +71,7 @@ ul {
 
 .jumbotron {
     background-color: #BFB6AE;
+    background-image: ;
     
 }
 
@@ -98,3 +100,60 @@ btn btn-dark btn-lg {
     display: flex;
     justify-content: center;
 }
+.skillsHeader {
+    text-align: center;
+
+}
+.skillsContentWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skillsCard {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.skillsImage {
+    width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+}
+h2 {
+    font-size: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000;
+    font-weight: 100;
+    margin: 0;
+    display: grid;
+    justify-content: center;
+}
+.workHeader h1 {
+    color: #000;
+    margin: 0;
+    display: grid;
+    justify-content: center;
+}
+.workCardText button {
+    margin: auto;
+    display: grid;
+    justify-content: center;
+}
+.skillsWrapper {
+    margin-top: 100px;
+}
+.workWrapper {
+    margin-top: 100px;
+}
+.skillsWrapper h1 {
+    color: #000;
+}
+.footer .inline-block {
+    height: 50px;
+    margin-top: 50px;
+    justify-content: center;
+}
+/* workContent will get flex-direction: column and each work card won't need it will have to poay with percentages of images view all projects button is exactly same as header excep text inside */
